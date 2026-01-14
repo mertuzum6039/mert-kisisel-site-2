@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mert'in Kişisel Sitesi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #111;
+    padding: 10px;
+    z-index: 1000;
+  }
+
+  nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+    
+    
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+     background: #111;
+    color: black;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+      nav a:hover {
+    color: #00c6ff;
+    border-bottom: 2px solid #00c6ff;
+    padding-bottom: 5px;
+    transition: 0.3s;
+         }
+    nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+      .alt-yazi {
+  text-align: center;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+     .btn {
+  display: block;
+  width: fit-content;
+  margin: 30px auto;
+  box-shadow: 0 10px 20px rgba(0,198,255,0.4);
+}
+  section {
+  background: #f5f5f5;
+  color: #111;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+    section {
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+   section h2 {
+  color: #000;
+}
+  section:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+   .logo {
+  color: white;
+  font-weight: bold;
+  margin-right: 30px;
+}
+  nav {
+  backdrop-filter: blur(10px);
+  background: rgba(0,0,0,0.6);
+}
+        footer {
+  background: #000;
+  padding: 30px;
+  margin-top: 60px;
+}
+  .projeler {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.proje {
+  background: white;
+  color: #111;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.proje h3 {
+  margin-top: 0;
+}
+        .intro-text {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin: 15px auto 25px;
+  }
+
+  .main-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #4f46e5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+
+  .main-btn:hover {
+    background: #3730a3;
+    transform: translateY(-3px);
+  }
+        .project-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  max-width: 600px;
+  margin: 30px auto;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.project-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 22px;
+  background: #10b981;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.project-btn:hover {
+  background: #059669;
+  transform: translateY(-2px);
+}
+        
+.project-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin: 15px 0;
+}
+ .project-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+}
+</style>
+
+</head>
+
+<body>
+
+<div style="text-align:center; font-family:Arial, sans-serif; background:#f2f2f2; padding:40px;">
+<nav style="margin-bottom:30px;">
+    <span class="logo">Mert Üzüm</span>
+  <a href="#anasayfa">Ana Sayfa</a>
+  <a href="#hakkimda">Hakkımda</a>
+    <a href="#projeler">Projelerim</a>
+  <a href="#iletisim">İletişim</a>
+</nav>
+
+    <img src="mert.jpg" alt="Mert"
+    style="
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    object-fit:cover;
+    display:block;
+    margin:auto;
+    ">
+
+    <h1 id="anasayfa">Mert Üzüm – Kendi Web Dünyamı Keşfet</h1>
+    <p class="intro-text">
+  Merhaba, ben Mert. Web geliştirmeye yeni başladım ve
+  bu siteyi öğrendiklerimi paylaşmak için oluşturdum.
+</p>
+
+<a href="#projeler" class="main-btn">Projelerime Göz At</a>
+
+    <p>
+Merhaba! Ben Mert, HTML & CSS kullanarak kendi kişisel web sitemi oluşturdum. 
+Bu site, yaptığım projeleri ve yeteneklerimi sergilemek için hazırlandı.
+    </p>
+    <p class="alt-yazi">Kişisel web siteme hoş geldin</p>
+    <p>10. Sınıf | Kişisel Web Sitesi</p>
+
+<section id="hakkimda">
+  <h2>👤 Hakkımda</h2>
+  <p>Ben Mert, 10. sınıf öğrencisiyim...</p>
+</section>
+    <section id="projeler">
+  <h2>💻 Projelerim</h2>
+        <div class="project-card">
+  <h3>İlk Web Projem</h3>
+            <img src="mert proje.jpg" alt="İlk Web Projem">
+  <p>
+    HTML ve CSS kullanarak oluşturduğum,
+    mobil uyumlu ilk kişisel web sitem.
+  </p>
+  <a href="proje-detay.html" class="project-btn">Projeyi Gör</a>
+</div>
+        
+  <div class="projeler">
+    <div class="proje">
+      <h3>Kişisel Web Sitem</h3>
+      <p>HTML ve CSS kullanarak yaptığım kişisel web sitesi.</p>
+        <a href="proje-detay.html" class="proje-btn">Projeyi Gör</a>
+    </div>
+
+    <div class="proje">
+      <h3>Mini Oyun</h3>
+      <p>Basit mantıkla çalışan ilk oyun denemem.</p>
+    </div>
+
+    <div class="proje">
+      <h3>Okul Projesi</h3>
+      <p>10. sınıf bilişim dersi için hazırladığım çalışma.</p>
+    </div>
+  </div>
+</section>
+
+
+    <p>
+        Merhaba, ben Mert. 10. sınıf bilişim öğrencisiyim.
+        Web sitesi yapmayı ve kendimi geliştirmeyi seviyorum.
+    </p>
+<section id="iletisim">
+  <h2> 📞 İletişim</h2>
+  <p>E-posta: mertuzum2010@gmail.com</p>
+</section>
+
+    <hr>
+
+   <p>📧 E-posta: <a href="mailto:mertuzum2010@gmail.com">mertuzum2010@gmail.com</a></p>
+
+    <p>🌐 GitHub: github.com/mertuzum6039</p>
+
+</div>
+
+</body>
+</html>
